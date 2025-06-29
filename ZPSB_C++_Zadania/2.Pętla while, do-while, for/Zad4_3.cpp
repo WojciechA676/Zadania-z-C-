@@ -27,14 +27,12 @@ int main() {
 
     // Pętla do-while wykonuje się co najmniej raz
     do {
-        // Wczytaj liczbę od użytkownika
+        
         std::cout << "Podaj liczbe: ";
         std::cin >> liczba;
 
-        // Wyświetl wprowadzoną liczbę
         std::cout << "Wprowadziles liczbe: " << liczba << std::endl;
 
-        // Zapytaj, czy użytkownik chce kontynuować
         std::cout << "Czy chcesz wprowadzic kolejna liczbe? (t/n): ";
         std::cin >> kontynuuj;
 
