@@ -18,11 +18,9 @@ int main() {
     int N;         // Liczba końcowa zakresu
     int suma = 0;  // Zmienna do przechowywania sumy
 
-    // Poproś użytkownika o podanie liczby całkowitej dodatniej
     std::cout << "Podaj liczbe N: ";
     std::cin >> N;
 
-    // Sprawdzenie poprawności wejścia
     if (N <= 0) {
         std::cout << "Blad: liczba musi byc dodatnia." << std::endl;
         return 1; // zakończ program z błędem
@@ -33,7 +31,6 @@ int main() {
         suma += i; // dodaj bieżącą liczbę do sumy
     }
 
-    // Wyświetlenie wyniku
     std::cout << "Suma liczb od 1 do " << N << " wynosi: " << suma << std::endl;
 
     return 0;
