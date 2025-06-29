@@ -22,7 +22,6 @@ Liczby parzyste od 2 do 10:
 int main() {
     int N;
 
-    // Poproś użytkownika o podanie liczby całkowitej dodatniej N
     std::cout << "Podaj liczbe N: ";
     std::cin >> N;
 
@@ -38,7 +37,7 @@ int main() {
 
     // Pętla while – wykonuje się dopóki liczba nie przekroczy N
     while (liczba <= N) {
-        std::cout << liczba << std::endl; // wypisz aktualną liczbę
+        std::cout << liczba << std::endl; 
         liczba += 2; // przejdź do kolejnej liczby parzystej
     }
 
