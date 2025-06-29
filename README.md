@@ -10,7 +10,7 @@ Struktura wykonanych zadań jest prosta — na początku każdego pliku znajduje
 Na początku zadania były dość proste, dopiero od momentu pracy z funkcjami zaczęły wymagać więcej czasu i były dość czasochłonne.
 W międzyczasie, ucząc się o wskaźnikach, poznałem przydatną konstrukcję using namespace std;, która zaoszczędziła mi sporo pisania w kolejnych zadaniach.
 
-Wypisywany tekst w programach C++ nie zawiera polskich znaków (ograniczenia konsoli), natomiast komentarze i treść zadań już je posiadają.
+Wypisywany tekst w programach C++ nie zawiera polskich znaków, natomiast komentarze i treść zadań już je posiadają.
 
 Komentarze obok kodu zostały dodane głównie z myślą o sobie, aby nie zapomnieć, do czego służą poszczególne fragmenty programu.
 
