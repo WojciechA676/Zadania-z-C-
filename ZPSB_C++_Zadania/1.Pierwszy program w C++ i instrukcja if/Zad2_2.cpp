@@ -41,7 +41,7 @@ int main() {
     std::cin >> wzrost;
 
     if (waga <= 0 || wzrost <= 0) {
-        std::cout << "Błąd: Waga i wzrost muszą być większe od zera." << std::endl;
+        std::cout << "Blad: Waga i wzrost musza byc wieksze od zera." << std::endl;
         return 1;
     }
 
@@ -57,7 +57,7 @@ int main() {
     } else if (bmi < 30.0) {
         std::cout << "Nadwaga";
     } else {
-        std::cout << "Otyłość";
+        std::cout << "Otylosc";
     }
 
     std::cout << std::endl;
