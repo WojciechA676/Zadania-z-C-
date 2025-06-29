@@ -30,7 +30,7 @@ int main() {
     std::cin >> punkty;
 
     if (punkty < 0 || punkty > 100) {
-        std::cout << "Błąd: liczba punktów musi być w zakresie od 0 do 100." << std::endl;
+        std::cout << "Blad: liczba punktow musi byc w zakresie od 0 do 100." << std::endl;
     } else {
         std::cout << "Ocena: ";
         if (punkty <= 49) {
@@ -42,7 +42,7 @@ int main() {
         } else if (punkty <= 99) {
             std::cout << "Bardzo dobra";
         } else { // punkty == 100
-            std::cout << "Celująca";
+            std::cout << "Celujaca";
         }
         std::cout << std::endl;
     }
