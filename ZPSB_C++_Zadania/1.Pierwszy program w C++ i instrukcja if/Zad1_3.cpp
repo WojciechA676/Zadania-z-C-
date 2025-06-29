@@ -18,7 +18,7 @@ int main() {
     char znak = 'A';
     bool logiczna = true;
 
-    std::cout << "Zmienna całkowita: " << liczba_calkowita << std::endl;
+    std::cout << "Zmienna calkowita: " << liczba_calkowita << std::endl;
     std::cout << "Zmienna zmiennoprzecinkowa: " << liczba_float << std::endl;
     std::cout << "Zmienna znakowa: " << znak << std::endl;
     std::cout << "Zmienna logiczna: " << std::boolalpha << logiczna << std::endl;
