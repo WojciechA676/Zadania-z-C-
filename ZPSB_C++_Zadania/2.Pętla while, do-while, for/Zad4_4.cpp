@@ -20,7 +20,6 @@ int main() {
     int licznikParzystych = 0; // Liczba znalezionych liczb parzystych
     int i = 1;                  // Zmienna iteracyjna
 
-    // Poproś użytkownika o podanie liczby dodatniej
     std::cout << "Podaj liczbe calkowita dodatnia N: ";
     std::cin >> N;
 
@@ -38,7 +37,6 @@ int main() {
         i++; // przejdź do kolejnej liczby
     } while (i <= N);
 
-    // Wyświetl wynik
     std::cout << "Liczba liczb parzystych od 1 do " << N << " wynosi: " << licznikParzystych << std::endl;
 
     return 0;
